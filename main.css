@@ -213,14 +213,13 @@ section#15
   /* 이미지 크기 키우기 */
   img, .adj_img {
     width: 60vw;
-    height: auto;
+    height: 60vw;
   }
 
   /* 선택지 정렬 세로로 변경 */
   .selection {
     flex-direction: column;
     align-items: center;
-    gap: 4vw;
   }
 
   .selection > div {
