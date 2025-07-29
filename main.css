@@ -200,14 +200,19 @@ section#15
     font-size: 4vw;
   }
 
-  p, .q {
-    font-size: 4.5vw;
+  p
+  {
+    font-size: 4vw;
+  }
+
+  section .q {
+    font-size: 4vw;
   }
 
   /* 버튼 크기 키우기 */
   .btn, .main_btn, .btn2 {
     width: 60vw;
-    padding: 3vw;
+    padding: 2vw;
   }
 
   /* 이미지 크기 키우기 */
@@ -220,10 +225,10 @@ section#15
   .selection {
     flex-direction: column;
     align-items: center;
+    gap: 3vw;
   }
 
   .selection > div {
-    margin-right: 0;
     width: 70vw;
   }
 
