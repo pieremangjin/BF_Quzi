@@ -1,6 +1,7 @@
-const mainBtn = document.querySelector('.main_btn');
+const mainBtns = document.querySelectorAll('.main_btn');
 
-mainBtn.addEventListener('click', () => {
+mainBtns.forEach((mainBtn) => {
+    mainBtn.addEventListener('click', () => {
     const targetId = mainBtn.getAttribute('data-target');
     const currentSection = document.querySelector('section.active');
     const nextSection = document.getElementById(targetId);
@@ -10,6 +11,8 @@ mainBtn.addEventListener('click', () => {
         nextSection.classList.add('active');
     }
 })
+});
+
 
 const btns = document.querySelectorAll('.btn');
 
