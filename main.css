@@ -1,0 +1,183 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+body{
+    background-color: pink;
+}
+
+img
+{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.btn
+{
+    width: 200px;
+    padding: 10px;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+}
+
+.main_btn
+{
+    width: 200px;
+    padding: 10px;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+/* header */
+header
+{
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+header h1
+{
+    color: rgb(255, 11, 92);
+    text-shadow: 3px 3px 1px #fff;
+    font-size: 60px;
+}
+/* main */
+main
+{
+    position: relative;
+}
+
+.start
+{
+    padding-top: 10%;
+}
+
+section
+{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    display: none;
+    padding-top: 3%;
+}
+
+p
+{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+section.active
+{
+  display: flex;
+    flex-direction: column; /* 이미지 위, 버튼 아래 정렬 */
+    align-items: center;     /* 수평 중앙 정렬 */
+    justify-content: center; /* 수직 중앙 정렬 */
+}
+
+section .q
+{
+    font-size: 32px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+section > div 
+{
+    margin: 5%;
+
+}
+
+.selection
+{
+    display: flex;
+}
+
+.selection > div
+{
+    margin-right: 5%;
+}
+
+.selection > div:last-child
+{
+    margin-right: 5%;
+}
+
+.selection > div:hover
+{
+
+    background-color: rgb(255, 128, 170);
+    cursor: pointer;
+}
+
+
+/* btn */
+.btn2
+{
+    width: 400px;
+    padding: 10px;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* img */
+section#15
+{
+    position: relative;
+    overflow: hidden; /* 화면 고정 효과 */
+    width: 100%;
+}
+.img_container
+{
+    display: flex;
+    width: fit-content;
+    margin: 0;
+    animation: scrollLeft 20s linear infinite;
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.adj_img
+{
+    height: 500px;
+    object-fit: cover;
+}
+
+.ls_selection
+{
+    margin: 0;
+}
+
+.ls_selection > div:hover
+{
+    background-color: rgb(255, 128, 170);
+    cursor: pointer;
+}

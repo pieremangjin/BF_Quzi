@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <link rel="stylesheet" href="./main.css">
+    <script defer src="./main.js"></script>
+</head>
+<body>
+    <header>
+        <h1>똔지니와의 연애 퀴즈~</h1>
+    </header>
+    <main>
+        <section id="-1">
+            <img src="./image/오답.jpg" alt="오답">
+            <div class="selection">
+                <div class="btn" data-target="0"><h2>다시하기</h2></div>
+        </section>
+         <section id="-2">
+            <p class="q">언년이랑 간거야ㅏㅏㅏㅏㅏㅏㅏㅏㅏ??</p>
+            <img src="./image/언년.jpg" alt="언년">
+            <div class="selection">
+                <div class="btn" data-target="0"><h2>다시하기</h2></div>
+        </section>
+        <section id="-3">
+            <img src="./image/콱씨.jpg" alt="콱씨">
+            <div class="selection">
+                <div class="btn" data-target="9"><h2>다시하기</h2></div>
+        </section>
+
+        <section class="active start" id="0">
+            <p>
+                우리의 추억을 얼마나 잘 기억하고 있는지<br> 확인해보는 게임
+            </p>
+            <div class="selection">
+                <div class="main_btn" data-target="1"><h2>시작하기</h2></div>
+            </div>
+        </section>
+        <section id="1">
+            <p class="q">사귀기 전 너 덕분에 내가 완전 신났던 이유는??</p>
+            <img src="./image/아이유.jpg" alt="아이유">
+            <div class="selection">
+                <div class="btn" data-target="2"><h2>아이유 콘서트</h2></div>
+                <div class="btn" data-target="-1"><h2>아이유 팬싸인회</h2></div>
+            </div>
+        </section>
+        <section id="2">
+            <p class="q">우리가 벚꽃 보러 간 장소는??</p>
+            <img src="./image/벚꽃.jpg" alt="벚꽃">
+            <div class="selection">
+                <div class="btn" data-target="-1"><h2>잠실 호수공원</h2></div>
+                <div class="btn" data-target="3"><h2>공주 동학사</h2></div>
+            </div>
+        </section>
+        <section id="3">
+            <p class="q">100일에 우리가 무엇을 만들러 갔나요??</p>
+            <img src="./image/커플링.jpg" alt="커플링">
+            <div class="selection">
+                <div class="btn" data-target="-1"><h2>커플팔찌</h2></div>
+                <div class="btn" data-target="4"><h2>커플링</h2></div>
+            </div>
+        </section>
+        <section id="4">
+            <p class="q">빠지 가기 전, 어디로 대게를 먹으러 갔나요??</p>
+            <img src="./image/대게.jpg" alt="대게">
+            <div class="selection">
+                <div class="btn" data-target="5"><h2>노량진 수산시장</h2></div>
+                <div class="btn" data-target="-1"><h2>노랑전 수산시장</h2></div>
+            </div>
+        </section>
+        <section id="5">
+            <p class="q">나한테는 언제 생일밥을 만들어 줄 건가요??</p>
+            <img src="./image/생일.jpg" alt="생일">
+            <div class="selection">
+                <div class="btn" data-target="6"><h2>10월 29일</h2></div>
+                <div class="btn" data-target="6"><h2>10월 29일</h2></div>
+            </div>
+        </section>
+        <section id="6">
+            <p class="q">우리의 첫 1박 2일 여행지는??</p>
+            <img src="./image/일본.jpg" alt="일본">
+            <div class="selection">
+                <div class="btn" data-target="-2"><h2>전주</h2></div>
+                <div class="btn" data-target="7"><h2>일본</h2></div>
+            </div>
+        </section>
+        <section id="7">
+            <p class="q">우리가 400일 기념으로 놀러간 곳은??</p>
+            <img src="./image/전주.jpg" alt="전주">
+            <div class="selection">
+                <div class="btn" data-target="-2"><h2>경주</h2></div>
+                <div class="btn" data-target="8"><h2>전주</h2></div>
+            </div>
+        </section>
+        <section id="8">
+            <p class="q">우리가 경주가서 야무지게 먹은 양식집 이름은??</p>
+            <img src="./image/경주.jpg" alt="경주">
+            <div class="selection">
+                <div class="btn" data-target="9"><h2>피자옥</h2></div>
+                <div class="btn" data-target="-1"><h2>피자역</h2></div>
+            </div>
+        </section>
+        <section id="9">
+            <p class="q">누구 가슴이 더 큰가요??</p>
+            <img src="./image/가슴.jpg" alt="가슴">
+            <div class="selection">
+                <div class="btn" data-target="-3"><h2>박대환</h2></div>
+                <div class="btn" data-target="10"><h2>이선진</h2></div>
+            </div>
+        </section>
+        <section id="10">
+            <img src="./image/행복.jpg" alt="행복">
+            <div class="selection">
+                <div class="btn" data-target="11"><h2>다음으로</h2></div>
+            </div>
+        </section>
+        <section id="11">
+            <p class="q">문제를 다 맞추고,<br> 여자친구를 행복하게 해준 당신,<br>
+                        상품으로 3가지 중 1가지를 고를 수 있는 기회를 드리겠습니다.
+            </p>
+            <div class="selection">
+                <div class="btn2" data-target="12"><h2>똥꼬 만짐 당하기</h2></div>
+                <div class="btn2" data-target="13"><h2>똔지니랑 달달한거 먹으러 가기~</h2></div>
+                <div class="btn2" data-target="14"><h2>겨떠레끼 만짐 당하기</h2></div>
+            </div>
+        </section>
+        <section id="12">
+            <img src="./image/굳.jpg" alt="굳">
+            <div class="selection">
+                <div class="btn2" data-target="15"><h2>서비스 하러 지금 당장 출발합니다.</h2></div>
+            </div>
+        </section>
+        <section id="13">
+            <img src="./image/개굳.jpg" alt="개굳">
+            <div class="selection">
+                <div class="btn2" data-target="15"><h2>지금 당장 출발해주십시오.</h2></div>
+            </div>
+        </section>
+        <section id="14">
+            <img src="./image/굳.jpg" alt="굳">
+            <div class="selection">
+                <div class="btn2" data-target="15"><h2>서비스 하러 지금 당장 출발합니다.</h2></div>
+            </div>
+        </section>
+        <section id="15">
+            <div class="img_container">
+                <img class="adj_img1 adj_img" src="./image/1.jpg">
+                <img class="adj_img2 adj_img" src="./image/2.jpg">
+                <img class="adj_img3 adj_img" src="./image/3.jpg">
+                <img class="adj_img4 adj_img" src="./image/4.jpg">
+                <img class="adj_img5 adj_img" src="./image/5.jpg">
+                <img class="adj_img6 adj_img" src="./image/6.jpg">
+                <img class="adj_img7 adj_img" src="./image/7.jpg">
+                <img class="adj_img8 adj_img" src="./image/8.jpg">
+                <img class="adj_img9 adj_img" src="./image/9.jpg">
+                <img class="adj_img10 adj_img" src="./image/10.jpg">
+            </div>  
+            <p>앞으로도 잘 부탁하고, 지금처럼 이쁘게 연애하자~ 사랑해♡♡♡♡♡♡♡♡</p>
+            <div class="ls_selection">
+                <div class="main_btn" data-target="0"><h2>처음으로</h2></div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
